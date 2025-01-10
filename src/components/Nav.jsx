@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./Home";
-import Dropdown from "./Dropdown";
 import Cart from "./Cart";
 import ProductList from "./ProductList";
 import ProductView from "./ProductView";
 import Error from "./Error";
-import UserNotification from "./userNotification";
+import Notify from "./Notify";
 import Order from "./Order";
 
 const Nav = () => {
@@ -106,7 +105,7 @@ const Nav = () => {
               </Link>
 
               <Link
-                to="/usernotification"
+                to="/notify"
                 title={isCollapsed ? "Notifications" : ""}
                 className="flex items-center cursor-pointer hover:bg-slate-400 hover:text-white "
               >
@@ -127,7 +126,7 @@ const Nav = () => {
               <Route path="/products" element={<ProductList />} />
               <Route path="/products/:id" element={<ProductView />} />
               <Route path="/cart" element={<Cart />} />
-              <Route path="/usernotification" element={<UserNotification />} />
+              <Route path="/notify" element={<Notify />} />
               <Route path="/order" element={<Order />} />
               <Route path="*" element={<Error />} />
             </Routes>
