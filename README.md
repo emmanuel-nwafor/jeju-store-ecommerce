@@ -1,8 +1,6 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Jeju-stores</h1>
+A web application where users can search for products, add products to cart and also remove products from carts and order products online.
+<h1>Functionalities</h1>
+<b>Search functionality</b>
+<b>Add to cart functionality</b>
+<b>Remove from cart</b>
