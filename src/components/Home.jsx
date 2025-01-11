@@ -6,32 +6,32 @@ import Footer from "./Footer";
 
 const categories = [
   {
-    name: "Clothes",
-    img: "/src/assets/img2.png",
+    name: "Headphones",
+    img: "https://i.pinimg.com/474x/9a/72/d2/9a72d2e9beb48d62959987205228f4f8.jpg",
   },
   {
     name: "Vehicles",
-    img: "/src/assets/car.png",
+    img: "https://i.pinimg.com/236x/93/da/d2/93dad290eb9cbf6a324552a7fad172ed.jpg",
     route: "/vehicles",
   },
   {
-    name: "Property",
-    img: "/src/assets/house.png",
+    name: "Properties",
+    img: "https://i.pinimg.com/236x/bf/eb/29/bfeb29200642340444c7badecf83de39.jpg",
     route: "/property",
   },
   {
     name: "Phones & Tablets",
-    img: "/src/assets/phone.png",
+    img: "https://i.pinimg.com/236x/0d/be/eb/0dbeeb010c9cf22fec89f6ef1cc699f0.jpg",
     route: "/phones",
   },
   {
-    name: "Electronics",
-    img: "/src/assets/tv.png",
+    name: "Smart Watch",
+    img: "https://i.pinimg.com/236x/37/a8/ae/37a8ae2095512429d5d0ffa5d8675378.jpg",
     route: "/electronics",
   },
   {
-    name: "Fashion",
-    img: "/src/assets/drag.png",
+    name: "Clothes",
+    img: "https://i.pinimg.com/236x/b0/06/19/b006197dab0c09cbf17e41d8db67ef35.jpg",
     route: "/home-appliances",
   },
 ];
@@ -53,9 +53,9 @@ const HomePage = () => {
               <img
                 src={category.img}
                 alt={category.name}
-                className="w-20 h-20 object-contain mb-4"
+                className=" object-contain mb-4"
               />
-              <span className="text-sm font-medium text-gray-700 text-center">
+              <span className="text-sm font-medium p-4 text-gray-700 text-center">
                 {category.name}
               </span>
             </Link>
